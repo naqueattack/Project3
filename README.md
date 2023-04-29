@@ -5,7 +5,7 @@ The goal of this project is to familiarize with Tableau and create visuals that 
 
 ## Process
 ### My first step was to figure out what dataset to use. I took a brief look at a few and then landed on the airbnb dataset as it seemed the most intuitive
-### My second step was to take a look at the data in Tableau after importing it and get a feel for the variables
+### My second step was to take a look at the data in Tableau after importing it and get a feel for the variables. This included looking at data types, range of answers, distribution, etc. 
 ### Next, I checked the dataset for cleanliness (nulls, outliers, etc.) and make some updates:
 1. 3 places missing date, imputed date of host id preceding and following.
 2. 3 places missing property type, imputed type based on name (2 apartments, 1 house)
@@ -16,7 +16,7 @@ The goal of this project is to familiarize with Tableau and create visuals that 
 7. Changed the type of any type with less than 5 entries to "Other"
 8. Did not remove 'duplicates' as it is definitely possible someone has multiple properties and is lazy enough to just leave the listing the exact same (e.g. "Cozy Apt #1" vs. "Cozy Apt #2")
 
-### I then started creating some basic visuals to better understand how the data looks / trends
+### I then started creating some basic visuals to better understand how the data looks / trends. This was the second portion of my EDA. I created crosstab charts & graphs and line charts where possible to see how things trended or where I might find relationships. In doing this I discovered that price might be interesting, but reviews were pretty flat across the board (90's).
 ### After creating about 5-8 charts I got a better idea for what I wanted to do and started pulling together a dashboard. As I was doing that I had ideas for other visuals and iterated between making new charts and updating my dashboard
 ### As a final step, I refined my visuals to make my dashboards more intuitive and easy to read, and put the finishing touches on everything
 
