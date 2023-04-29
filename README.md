@@ -42,8 +42,11 @@ I created a number of visualizations:
 11. Unused: Line chart of reviews x number of ratings
 12. Unused: Bar chart of ratings for each location
 
-In exploring the dataset I did find there are three groups of airbnbs: Lower price, higher price, and lower rating (the first two groups have high ratings). The median for rating across categories was about 90-95 so really not much variability there. Price did vary a bit so was easier to look at. For price:
+In exploring the dataset I did find there are three groups of airbnbs: Lower price, higher price, and lower rating (the first two groups have high ratings). The median for rating across categories was about 90-95 so really not much variability there. Price did vary a bit so was easier to look at. 
 
+I opted to answer, what attributes affect ratings & price and what do the properties of this area look like (how expensive are they and where, how highly rated and where)
+
+For price:
 1. Location type did make a difference in price with condos, villas and bungalows being most expensive and dorms and campers being least. 
 2. Having privacy (entire home/apt) had a high premium
 3. More beds did lead to a higher price, but a lower price per bed
